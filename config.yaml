@@ -1,0 +1,34 @@
+###################### Base Settings######################
+test_during_training: True
+
+### database ###
+
+MA:
+  datainfo: E:/Projects/IQA/IQA-DB/sr_metric_data.mat
+  im_dir: E:/Projects/IQA/IQA-DB/MA/
+QADS:
+  datainfo: E:/Projects/IQA/IQA-DB/QADSfullinfo.mat
+  im_dir: E:/Projects/IQA/IQA-DB/QADS/
+
+
+patch_size: 32
+n_patches: 32
+stride: 32
+exp_id: 0
+
+train_ratio: 0.6
+val_ratio: 0.2
+test_ratio: 0.2
+
+### model ###
+JCSAN:
+  kernel_size: 7
+  n_kernels: 50
+  n1_nodes: 800
+  n2_nodes: 800
+
+JNSFANet:
+   kernel_size: 3
+
+MobileNetV2:
+   kernel_size: 7
