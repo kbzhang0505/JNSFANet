@@ -4,5 +4,7 @@ No-reference super-resolution image quality assessment (NR-SRIQA) is still a cha
 ## Model Architecture
 ![image](https://github.com/kbzhang0505/JNSFANet/blob/main/figures/1.png)
 Architecture of the proposed JNSFANet for NR-SRIQA. Convolutional layer notation: Conv(input channels, output channels, kernel size, stride). The detail of NSSFE, SFMDA and IRB layers can be find in our paper.
+## Comparison Experiment
+
 ## Model Training
 Runing trainer.py, the result and weights will be saved in current directory.
