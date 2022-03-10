@@ -3,4 +3,4 @@ No-reference super-resolution image quality assessment (NR-SRIQA) is still a cha
 
 ## Model Architecture
 
-## SFMDA Module
+## Model Training
